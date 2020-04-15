@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/mytaobao/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/taobao/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "淘宝",
+    "navigationBarBackgroundColor": "#ff9900",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#cacaca",
+    "selectedColor": "#f40",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/taobao/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_hover.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mytaobao/index",
+        "iconPath": "image/mytb.png",
+        "selectedIconPath": "image/mytb_hover.png",
+        "text": "我的淘宝"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

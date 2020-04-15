@@ -1,0 +1,25 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+.v-middle{
+  display: flex;
+  align-items: center
+}
+.h-middle{
+  display: flex;
+  justify-content: center
+}
+.input-placeholder{
+  color: #e2e2e2
+}
