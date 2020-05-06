@@ -1,7 +1,26 @@
 <view class="page-container">
-    <view class="header">
-       <image></image>
-      
-  
+  <view class="header">
+    <image src="../../image/tao.png"></image>
+    <input type="text" placeholder="寻找宝贝"></input>
+  </view>
+  <view class="banner">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="true" interval="3000" duration="500">
+      <block wx:for="{{imgUrls}}" wx:key="key">
+        <swiper-item>
+          <navigator url="../ceshi/ceshi" bindtap="ceshi" hover-class="navigator-hover">
+            <image class="banner-img" src="{{item}}" class="slide-image" />
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <image src="http://img.alicdn.com/tps/TB13LWiOXXXXXbJXFXXXXXXXXXX-1125-336.png" class="banner-2" id="banner"></image>
+  <view class="menu-list">
+    <view class="menu-item" wx:for="{{menu}}" wx:key="key">
+        <image src="{{item.imgUrl}}"></image>
+        <view class="item-text">{{item.descs}}</view>
     </view>
+  </view>
+
+
 </view>

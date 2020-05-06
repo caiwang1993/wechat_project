@@ -3,7 +3,8 @@
     "pages/mytaobao/index",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/taobao/index"
+    "pages/taobao/index",
+    "pages/ceshi/ceshi"
   ],
   "window": {
     "navigationBarTextStyle": "white",
